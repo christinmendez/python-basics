@@ -1,0 +1,31 @@
+pets=("dog","cat","elephant","hourse")
+print(pets)
+print(type(pets))
+print(len(pets))
+print(pets[0])
+x=(10,)
+print(type(x))
+y=tuple((7,10,11,33))
+print(y)
+print(y[0:2])
+print(y[0:])
+print(y[:3])
+print(y[-3:-1])
+print(y[-1:])
+print(7 in y)
+print(7 not in y)
+a=list(y)
+print(a)
+a[1]=20
+print(a)
+y=tuple(a)
+print(y)
+for i in y:
+    print(i)
+b=pets+y
+print(b)
+w=y*2
+print(w)
+t=w.count(7)
+print(t)
+
