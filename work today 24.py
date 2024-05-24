@@ -27,6 +27,14 @@ y=lambda x:x+10
 print(y(240))
 a=lambda b,c,d:b+c+d
 print(a(20,30,50))
+def sum(n):
+    t=0
+    for i in range(1,n+1):
+        t+=i
+    return t
+n=int(input("enter a valve"))
+print(sum(n))
+
 
 
 
